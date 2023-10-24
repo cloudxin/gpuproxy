@@ -30,7 +30,7 @@ func main() {
 	defer closer()
 
 	var commit2In Commit2In
-	eightMiB, err := os.ReadFile("example/8MiB.json")
+	eightMiB, err := os.ReadFile("example/32G.iB.json")
 	if err != nil {
 		log.Fatal(err)
 		return
